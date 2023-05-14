@@ -25,7 +25,7 @@ def main():
             prog = make_progression(x, y, z)
             if len(prog) > 5:
                 break
-        rand_idx = random.randint(0, len(prog)-1)
+        rand_idx = random.randint(0, len(prog) - 1)
         corr = prog[rand_idx]
         prog[rand_idx] = '..'
         prog_ = ' '.join(prog)
