@@ -40,7 +40,7 @@ def main():
         answer = prompt.string("Your answer: ")
 
         corr = opers[oper](x, y)
-        if (corr == answer):
+        if (str(corr) == answer):
             print('Correct!')
             right_answers += 1
         else:
