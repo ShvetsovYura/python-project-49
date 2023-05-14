@@ -29,7 +29,7 @@ def main():
         print(f'Question: {x} {y}')
         answer = prompt.string("Your answer: ")
 
-        corr = calc_gcd(x, y)
+        corr = str(calc_gcd(x, y))
         if (corr == answer):
             print('Correct!')
             right_answers += 1
